@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maga-games.github.io/sitemap.xml

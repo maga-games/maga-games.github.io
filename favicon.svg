@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6FA5"/>
+      <stop offset="1" stop-color="#C8A2FF"/>
+    </linearGradient>
+    <linearGradient id="bullet" x1="27" y1="14" x2="37" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3D6E"/>
+      <stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+    <linearGradient id="case" x1="27" y1="33" x2="37" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8A1F62"/>
+      <stop offset="1" stop-color="#5A1240"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="26" y1="30" x2="38" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE08A"/>
+      <stop offset="1" stop-color="#F4B740"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <g transform="rotate(-18 32 32)">
+    <path d="M27.5 30 V18.5 L36.5 14 V30 Z" fill="url(#bullet)"/>
+    <path d="M30 29 V19.8 L31.9 18.9 V29 Z" fill="#FFFFFF" fill-opacity="0.3"/>
+    <rect x="26.4" y="29.8" width="11.2" height="3.6" rx="1.2" fill="url(#ring)"/>
+    <rect x="27.6" y="33.4" width="8.8" height="18" rx="2.4" fill="url(#case)"/>
+  </g>
+</svg>
